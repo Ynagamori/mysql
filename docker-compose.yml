@@ -1,0 +1,11 @@
+services:
+  mysql:
+    build:
+      context: .
+      dockerfile: mysql/Dockerfile
+    ports:
+      - '3306:3306'
+    expose:
+      - 3306
+    volumes:
+      - "./mysql/storage/:/var/lib/mysql"
