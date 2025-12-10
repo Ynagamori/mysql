@@ -1,4 +1,4 @@
-# dumptest MySQL 環境
+# MySQL 環境
 
 Docker Compose を使ってローカルに MySQL（8.0）を立ち上げるための最小構成です。
 
